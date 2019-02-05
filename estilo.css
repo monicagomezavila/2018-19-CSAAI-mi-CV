@@ -1,5 +1,5 @@
 body{
-  background-color: hsla(186, 35%, 85%, 1);
+  background-image: url(css.jpg);
   font-size: 15px;
 }
 
@@ -10,13 +10,11 @@ h1 {
   letter-spacing: 1px;
   font-size: 30px;
   color: white;
-  text-shadow: 2px 2px 5px hsla(186, 65%, 35%, 1);
+  text-shadow: 2px 2px 5px #023102;
 }
 
 h3 {
-  font-family: "TimesNewRoman", serif;
-  border: 3px outset hsla(186, 85%, 35%, 1);
-  border-radius: 8px;
+  font-family: "times new roman", serif;
   font-size: 20px;
   font-style: oblique;
   color: black;
@@ -24,15 +22,22 @@ h3 {
 
 p {
   color: black;
-  font-family: arial;
+  font-family: verdana;
   font-size: 15px;
   font-style: normal;
+  color:#0d2618;
+  border: 1.5px outset #40bf77;
+  border-radius: 8px;
+  background-color:  #fff5e6;
+  box-shadow: 5px 5px 5px #194d30;
 }
 
 ul {
   list-style-type: square;
   font-size: 15px;
   font-style: normal;
+  border: 3px outset #023102;
+  background-color:  #fff5e6;
 
 }
 
@@ -45,6 +50,7 @@ a {
 
 img {
   border-radius: 8px;
+  border: #40bf77 solid 3px;
 }
 
 .seccion1 {
@@ -69,6 +75,6 @@ img {
   height: 200px;
   padding-left: 50px;
   padding-right: 50px;
-  float:left;
+  float:right;
 
 }
