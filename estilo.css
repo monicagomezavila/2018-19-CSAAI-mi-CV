@@ -10,14 +10,16 @@ h1 {
   letter-spacing: 1px;
   font-size: 30px;
   color: white;
-  text-shadow: 2px 2px 5px #023102;
+  text-shadow: 1px 1px 2px black, 0 0 25px #023102, 0 0 5px #023102;
 }
 
 h3 {
   font-family: "times new roman", serif;
   font-size: 20px;
   font-style: oblique;
-  color: black;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px #023102, 0 0 5px #023102;
+  padding-top: 10px;
 }
 
 p {
@@ -26,23 +28,29 @@ p {
   font-size: 15px;
   font-style: normal;
   color:#0d2618;
-  border: 1.5px outset #40bf77;
+  border: 1.5px outset #194d30;
   border-radius: 8px;
   background-color:  #fff5e6;
   box-shadow: 5px 5px 5px #194d30;
+  padding:20px;
 }
 
 ul {
+  color:#0d2618;
   list-style-type: square;
   font-size: 15px;
   font-style: normal;
-  border: 3px outset #023102;
+  border: 1.5px outset #194d30;
+  border-radius: 8px;
   background-color:  #fff5e6;
+  box-shadow: 5px 5px 5px #194d30;
+  padding:20px;
+}
 
 }
 
 a {
-  color: black;
+  color: #194d30;
   font-size: 15px;
   font-style: normal;
 }
@@ -50,7 +58,9 @@ a {
 
 img {
   border-radius: 8px;
-  border: #40bf77 solid 3px;
+  border: #194d30 solid 3px;
+  box-shadow: 5px 5px 5px #194d30;
+
 }
 
 .seccion1 {
@@ -77,4 +87,14 @@ img {
   padding-right: 50px;
   float:right;
 
+}
+#button {
+  background-color: #0e580e;
+  opacity: 0.7;
+  border: none;
+  color: white;
+  padding: 3px 3px;
+  text-align: center;
+  font-size: 15px;
+  margin: 2px 2px;
 }
