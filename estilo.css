@@ -1,20 +1,74 @@
-body {
-  font-family: "FreeMono", monospace;
+body{
+  background-color: hsla(186, 35%, 85%, 1);
+  font-size: 15px;
 }
 
+h1 {
+  font-family: "Verdana", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px 5px hsla(186, 65%, 35%, 1);
+}
+
+h3 {
+  font-family: "TimesNewRoman", serif;
+  border: 3px outset hsla(186, 85%, 35%, 1);
+  border-radius: 8px;
+  font-size: 20px;
+  font-style: oblique;
+  color: black;
+}
+
+p {
+  color: black;
+  font-family: arial;
+  font-size: 15px;
+  font-style: normal;
+}
 
 ul {
   list-style-type: square;
+  font-size: 15px;
+  font-style: normal;
+
 }
 
 a {
   color: black;
+  font-size: 15px;
+  font-style: normal;
 }
 
-h3 {
-  border: 1px outset black;
-  outline-style: double;
+
+img {
+  border-radius: 8px;
+}
+
+.seccion1 {
   margin: auto;
-  padding: 5px;
-  text-align: center;
+  margin-top: 600;
+  width: 800px;
+  height:200px;
+}
+
+#izquierda {
+  margin:auto;
+  width: 300px;
+  height: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  float:left;
+
+}
+#derecha {
+  margin:auto;
+  width: 300px;
+  height: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  float:left;
+
 }
